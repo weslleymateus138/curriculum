@@ -14,6 +14,10 @@ body {
     padding: 20px;
 }
 
+.section i{
+    margin-right: 3px;
+}
+
 .container {
     max-width: 800px;
     margin: 20px auto;
