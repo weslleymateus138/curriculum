@@ -18,3 +18,12 @@ document.addEventListener("DOMContentLoaded", function() {
         sectionObserver.observe(section);
     });
 });
+
+document.querySelector(".email").addEventListener("click", function(event) {
+            event.preventDefault();
+            navigator.clipboard.writeText(this.textContent).then(() => {
+                alert("Email copiado para a área de transferência: " + this.textContent);
+            }).catch(err => {
+                console.error("Erro ao copiar o email: ", err);
+            });
+        });
