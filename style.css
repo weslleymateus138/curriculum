@@ -22,6 +22,10 @@ body a{
     margin-right: 10px;
 }
 
+.email{
+    cursor: pointer;
+}
+
 .container {
     max-width: 800px;
     margin: 20px auto;
