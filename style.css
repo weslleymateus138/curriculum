@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -48,7 +47,7 @@ h1 {
 
 h2 {
     font-size: 1.5em;
-    border-bottom: 2px solid #4CAF50;
+    border-bottom: 2px solid #429dff;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
@@ -66,7 +65,7 @@ ul li {
     background: #f9f9f9;
     margin-bottom: 10px;
     padding: 10px;
-    border-left: 4px solid #4CAF50;
+    border-left: 4px solid #429dff;
 }
 
 ul li strong {
@@ -88,7 +87,7 @@ ul li strong {
     background: #f9f9f9;
     margin-bottom: 10px;
     padding: 10px;
-    border-left: 4px solid #4CAF50;
+    border-left: 4px solid #429dff;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
