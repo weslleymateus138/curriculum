@@ -7,10 +7,12 @@
 
 body {
     font-family: 'Arial', sans-serif;
+    margin: 0;
     background-color: #f0f2f5;
     color: #333;
     line-height: 1.6;
     padding: 20px;
+ 
 }
 
 body a{
@@ -77,6 +79,11 @@ ul li strong {
 .section {
     margin-bottom: 30px;
 }
+
+.section h2 {
+            border-bottom: 2px solid #429dff;
+            padding-bottom: 5px;
+        }
 
 .section:last-child {
     margin-bottom: 0;
