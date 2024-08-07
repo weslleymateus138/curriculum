@@ -12,11 +12,12 @@ body {
     color: #333;
     line-height: 1.6;
     padding: 20px;
- 
 }
 
 body a{
     cursor: pointer;
+    text-decoration: none;
+    color: #0000ee;
 }
 
 .section i{
